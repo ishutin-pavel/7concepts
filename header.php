@@ -1,43 +1,13 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <meta name="yandex-verification" content="899fb00728790d7f" />
-
-	<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(54690487, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/54690487" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144889594-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-144889594-1');
-</script>
-
-
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-		<title>Дизайн Интерьера Нур-Султан (Астана)</title>
-<meta name="description" content="Дизайн интерьера в Нур-Султане (Астана). Берем дизайн-проекты «под ключ». Начнем ремонт через 2 недели."/>
+    <meta name="description" content="Дизайн интерьера в Нур-Султане (Астана). Берем дизайн-проекты «под ключ». Начнем ремонт через 2 недели."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="yandex-verification" content="899fb00728790d7f" />
     <?php wp_head(); ?>
-	<link rel="stylesheet" href="/wp-content/themes/concepts/css/main.css">
-  <script src="//code.jivosite.com/widget.js" jv-id="DxCDs0f2gd" async></script>
-
+    <link rel="stylesheet" href="/wp-content/themes/concepts/css/main.css">
 </head>
 <body>
     <div class="header" id="header">
@@ -116,34 +86,5 @@
                 ) );
             ?>
 
-
-           <!--  <ul class="menu__list">
-                <li class="menu__element menu__element--close" id="close">
-                    <a href="" class="menu__link"><img src="<?=get_template_directory_uri();?>/img/header_body/close.png" alt="close"></a>
-                </li>
-                <li class="menu__element">
-                    <a href="#header" class="menu__link">Главная</a>
-                </li>
-                <li class="menu__element">
-                    <a href="#client" class="menu__link">Кто наш клиент</a>
-                </li>
-                <li class="menu__element">
-                    <a href="#realprojects" class="menu__link">Реализованные работы</a>
-                </li>
-                <li class="menu__element">
-                    <a href="#services" class="menu__link">Пакеты услуг</a>
-                </li>
-                <li class="menu__element">
-                    <a href="#cost" class="menu__link">Стоимость</a>
-                </li>
-                <li class="menu__element">
-                    <a href="#team" class="menu__link">Наша команда</a>
-                </li>
-                <li class="menu__element">
-                    <a href="#calculate" class="menu__link">Расчёт стоимости</a>
-                </li>
-            </ul> -->
          </div>   
-         <?php endif;  ?>  
-            
-
+       <?php endif;  ?>  

@@ -1,6 +1,40 @@
 jQuery(document).ready(function() {
 
+  jQuery(".plan-slider").owlCarousel({
+    items: 1,
+    nav: true,
+    navText: ["<img src=\"/wp-content/themes/concepts/img/chevron-left-dark.svg\">", "<img src=\"/wp-content/themes/concepts/img/chevron-right-dark.svg\">"],
+    dots: false,
+    lazyLoad: true,
+    margin:10
+  });
 
+
+  jQuery(".realprojects-slider, .cost-slider, .otziv-slider").owlCarousel({
+    items: 5,
+    nav: true,
+    // loop: true,
+    navText: ["<img src=\"/wp-content/themes/concepts/img/chevron-left-light.svg\">", "<img src=\"/wp-content/themes/concepts/img/chevron-right-light.svg\">"],
+    dots: false,
+    lazyLoad: true,
+    responsive : {
+        // breakpoint from 0 up
+        0 : {
+          items: 1
+        },
+        480 : {
+          items: 2
+        },
+        768 : {
+          items: 4
+        },
+        1199 : {
+          items: 5,
+        }
+    }
+  });
+
+  /*
     jQuery(".owl-carousel").owlCarousel({
         items: 5,
         itemsCustom: false,
@@ -60,6 +94,7 @@ jQuery(document).ready(function() {
         startDragging: false,
         afterLazyLoad: false
     });
+    */
 
     //Карусель.................................................................................................
 
