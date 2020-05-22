@@ -2155,12 +2155,12 @@ body {
 .owl-prev {
   position: absolute;
   left: 0;
-  outline: none;
+  outline: none !important;
 }
 .owl-next {
   position: absolute;
   right: 0;
-  outline: none;
+  outline: none !important;
 }
 .owl-next img,
 .owl-prev img {

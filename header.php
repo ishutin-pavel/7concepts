@@ -14,7 +14,9 @@
         <div class="header__nav">
                <div class="nav__icons">
                     <div class="nav__element nav__logo nav__logo--mobile">
-                        <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+                        <a href="/">
+                            <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+                        </a>
                     </div>
 					<?php if ( is_single()==false ) : ?>
                     <div class="nav__element nav__menu nav__menu--mobile" id="navigation--buttonmob">
@@ -23,7 +25,9 @@
 					<?php endif;  ?>
                </div>
                    <div class="nav__element nav__logo nav__logo--desktop">
-                        <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+                        <a href="/">
+                            <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+                        </a>
                     </div>
                     <div class="nav__element nav__element--mobile nav__adress">
                         <ul class="nav__list">
