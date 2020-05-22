@@ -14,38 +14,37 @@
    </div>
 </div>
 
-    <div class="footer">
-        <div class="header__nav header__nav--footer">
-                    <div class="nav__element nav__element--footer nav__logo nav__logo--footer">
-                        <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
-                    </div><br class="footer__br">
-                    <div class="nav__element nav__element--footer nav__adress">
-                        <ul class="nav__list nav__list--footer">
-                            <li><?=get_field('head_city', 'option') ? get_field('head_city', 'option') : null; ?></li>
-                            <li><?=get_field('head_address', 'option') ? get_field('head_address', 'option') : null; ?></li>
-                        </ul>
-                    </div><br class="footer__br">
-                    <div class="nav__element nav__element--footer nav__phone">
-                        <ul class="nav__list nav__list--footer">
-                            <? if (get_field('head_phone1', 'option')) : ?>
-                            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/smartphone.png" alt="smartphone"><?=get_field('head_phone1', 'option')?></li>
-                            <? endif; ?>
-                            <? if (get_field('head_phone2', 'option')) : ?>
-                            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/telephone.png" alt="telephone" class="img__telephone"><?=get_field('head_phone2', 'option')?></li>
-                            <? endif; ?>
-                        </ul>
-                    </div><br class="footer__br">
-                    <div class="nav__element nav__element--footer nav__mail">
-                        <ul class="nav__list nav__list--footer">
-                            <? if (get_field('head_mail', 'option')) : ?>
-                            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/email.png" alt="email"><?=get_field('head_mail', 'option');?></li>
-                            <? endif; ?>
-                            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/instagram.png" alt="instagram"><?=get_field('head_insta', 'option');?></li>
-                        </ul>
-                    </div>
-        </div>
-    
+<footer class="footer">
+  <div class="header__nav header__nav--footer">
+    <div class="nav__element nav__element--footer nav__logo nav__logo--footer">
+        <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+    </div><br class="footer__br">
+    <div class="nav__element nav__element--footer nav__adress">
+        <ul class="nav__list nav__list--footer">
+            <li><?=get_field('head_city', 'option') ? get_field('head_city', 'option') : null; ?></li>
+            <li><?=get_field('head_address', 'option') ? get_field('head_address', 'option') : null; ?></li>
+        </ul>
+    </div><br class="footer__br">
+    <div class="nav__element nav__element--footer nav__phone">
+        <ul class="nav__list nav__list--footer">
+            <? if (get_field('head_phone1', 'option')) : ?>
+            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/smartphone.png" alt="smartphone"><?=get_field('head_phone1', 'option')?></li>
+            <? endif; ?>
+            <? if (get_field('head_phone2', 'option')) : ?>
+            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/telephone.png" alt="telephone" class="img__telephone"><?=get_field('head_phone2', 'option')?></li>
+            <? endif; ?>
+        </ul>
+    </div><br class="footer__br">
+    <div class="nav__element nav__element--footer nav__mail">
+        <ul class="nav__list nav__list--footer">
+            <? if (get_field('head_mail', 'option')) : ?>
+            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/email.png" alt="email"><?=get_field('head_mail', 'option');?></li>
+            <? endif; ?>
+            <li><img src="<?=get_template_directory_uri();?>/img/header_nav/instagram.png" alt="instagram"><?=get_field('head_insta', 'option');?></li>
+        </ul>
     </div>
+  </div>
+</footer>
     
     <div class="copyright">
         <p class="copyright__text">
@@ -56,20 +55,12 @@
 
 <?php wp_footer(); ?>
 <style>
-	.ourprojects{
-		max-width:100%;
-	}
-    .client__header.client__header--real{
-        margin-top: 40px;
-    }
-    @media (min-width: 768px){
-    	.projects__holder {
-    		width: 33.33%!important;
-    	}
-    	.projects__holder {
-    		max-height: 100%;
-    	}
-    }
+.ourprojects { max-width:100%; }
+.client__header.client__header--real { margin-top: 40px; }
+@media (min-width: 768px){
+  .projects__holder { width: 33.33%!important; }
+  .projects__holder { max-height: 100%; }
+}
 </style>
 
     <!-- Yandex.Metrika counter -->

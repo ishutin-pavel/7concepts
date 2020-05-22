@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
   });
 
 
-  jQuery(".realprojects-slider, .cost-slider, .otziv-slider").owlCarousel({
+  jQuery(".rp-slider, .cost-slider, .otziv-slider").owlCarousel({
     items: 5,
     nav: true,
     // loop: true,
@@ -166,9 +166,21 @@ jQuery(document).ready(function() {
     });
 
     document.addEventListener( 'wpcf7mailsent', function( event ) {
+      if ( '498' == event.detail.contactFormId ) {
+        console.log( "Отправлена форма 498." );
+        location = 'https://7concepts.kz/wp-content/uploads/2020/05/chek-list.-oshibki-pri-remonte.pdf';
+      }
+    }, false );
+    document.addEventListener( 'wpcf7mailsent', function( event ) {
       if ( '499' == event.detail.contactFormId ) {
         console.log( "Отправлена форма 499." );
-        location = 'https://7concepts.kz/wp-content/uploads/2020/05/check-list-top-10-drawings-errors.pdf';
+        location = 'https://7concepts.kz/wp-content/uploads/2020/05/chek-list.-oshibki-pri-remonte.pdf';
+      }
+    }, false );
+    document.addEventListener( 'wpcf7mailsent', function( event ) {
+      if ( '500' == event.detail.contactFormId ) {
+        console.log( "Отправлена форма 500." );
+        location = 'https://7concepts.kz/wp-content/uploads/2020/05/chek-list.-oshibki-pri-remonte.pdf';
       }
     }, false );
 

@@ -135,6 +135,7 @@
   left: 0;
   margin: 0;
   padding: 0;
+  z-index: 99;
 }
 .menu__list {
   float: right;
@@ -152,7 +153,6 @@
   .menu__list {
     width: 50%;
     padding-left: 85px;
-    padding-top: 35px;
     text-align: left;
   }
 }
@@ -2155,14 +2155,32 @@ body {
 .owl-prev {
   position: absolute;
   left: 0;
+  outline: none;
 }
 .owl-next {
   position: absolute;
   right: 0;
+  outline: none;
 }
 .owl-next img,
 .owl-prev img {
   width: 30px;
   height: auto;
 }
-.realprojects-slider .owl-nav { top: 30%; }
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: transparent;
+}
+.rp-slider {}
+.rp-slider__slide {
+  position: relative;
+}
+.rp-slider__link:after {
+  content: '';
+  position: absolute;
+  top: 38%;
+  left: 38%;
+  width: 68px;
+  height: 48px;
+  background: url(img/youtube-red.png) center no-repeat;
+}
+.rp-slider .owl-nav { top: 30%; }
