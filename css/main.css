@@ -1,0 +1,273 @@
+.ourprojects {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.projects__image {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* h2 {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 116.48px);
+    width: 238.99px;
+    height: 1.99px;
+    background: url(https://cdn.shortpixel.ai/client/q_lossy,ret_img/http://7concepts.kz/wp-content/themes/concepts/img/team/team__border.png);
+} */
+
+@media (min-width: 1200px) {
+    /* .form__input-calculate {
+        width: 164px;
+    } */
+    .calculate_label {
+        line-height: 52px;
+    }
+}
+
+.projects__holder {
+    max-height: 461.16px;
+}
+
+.projects__image {
+    height: 100%;
+}
+
+@media (max-width: 1200px) {
+    .consult__form--calculate .form__input-calculate {
+        width: 300px;
+    }
+    .team__contentimg {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .team__content {
+        flex-direction: column;
+    }
+    .team__border {
+        display: none;
+    }
+    .team__contenttext {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .team {
+        padding-bottom: 10px;
+    }
+    .client__header--mb {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .projects__holder {
+        max-height: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects__holder {
+        width: 50%;
+    }
+}
+
+@media (max-width: 766px) {
+    .header__nav .nav__element--mobile {
+        width: 30%;
+    }
+    .header__nav .nav__element--mobile ul li {
+        font-size: 16px;
+    }
+    .header__nav .nav__list {
+        text-align: center;
+    }
+    .header__nav--footer {
+        text-align: center;
+    }
+    .nav__list--footer li {
+        margin-bottom: 10px!important;
+        font-size: 16px;
+    }
+    .quote__img {
+        bottom: 440px;
+        left: -64px;
+    }
+    .quote__img--1 {
+        top: 294px;
+        left: 276px;
+    }
+}
+
+@media (max-width: 622px) {
+    .header__nav .nav__element--mobile {
+        width: 49%!important;
+    }
+    /* .header__nav .nav__element--mobile ul li {
+        display: inline-block;
+        font-weight: bold;
+    }
+    .header__nav .nav__element--mobile.nav__phone ul li {
+        position: relative;
+    }
+    .header__nav .nav__element--mobile.nav__phone ul li:first-child::after {
+        content: '|';
+        margin-left: 10px;
+        margin-right: 7px;
+        font-size: 16px;
+    }
+    .header__nav .nav__element--mobile.nav__mail ul li {
+        position: relative;
+    }
+    .header__nav .nav__element--mobile.nav__mail ul li:first-child::after {
+        content: '|';
+        margin-left: 10px;
+        margin-right: 7px;
+        font-size: 16px;
+    } */
+    .header__nav .nav__element--mobile.nav__adress {
+        padding-top: 15px;
+    }
+    /* .header__nav .nav__element--mobile.nav__mail {
+        padding-bottom: 15px;
+    } */
+    .header__nav .nav__element--mobile.nav__adress {
+        display: none!important;
+    }
+}
+
+@media (max-width: 620px) {
+    .services__table tr>th:first-child,
+    .services__table tr>td:first-child {
+        position: sticky;
+        left: 0;
+        background: #fff;
+        width: 250px!important;
+        display: block;
+        padding-left: 10px;
+        border-right: 1px solid #f3f3f3;
+    }
+    .services__table tr>th:first-child {
+        height: 72.8px;
+        line-height: 72.8px;
+    }
+    .services__table {
+        padding-left: 0;
+    }
+    .services__table tr>th:nth-child(2),
+    .services__table tr>th:nth-child(3),
+    .services__table tr>th:nth-child(4),
+    .services__table tr>td:nth-child(2),
+    .services__table tr>td:nth-child(3),
+    .services__table tr>td:nth-child(4) {
+        width: 100px!important;
+    }
+    .body__button--services {
+        width: 115px;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects__holder {
+        max-height: 273px;
+    }
+    .cost__bg .lowcarousel__hover {
+        display: block;
+    }
+    .cost__bg .owl-item {
+        opacity: 1;
+    }
+    .gallery__img {
+        width: 100%;
+        height: auto;
+    }
+    /* .header__body {
+        background-position-x: -544px!important;
+    } */
+}
+
+@media (max-width: 576px) {
+    .header__nav .nav__element--mobile {
+        width: 100%;
+    }
+    .header__nav .nav__element--mobile ul li {
+        font-size: 14px;
+    }
+	.header__nav .nav__element--mobile.nav__mail ul li {
+		font-size: 10px;
+		line-height: 17px;
+	}
+}
+
+@media (max-width: 540px) {
+    .body__header {
+        padding-top: 45px;
+    }
+    .body__sub {
+        font-size: 24px;
+        padding-bottom: 24px;
+    }
+    .body__button {
+        margin-bottom: 36px;
+    }
+    .body__cardcontainer {
+        padding-bottom: 25px;
+    }
+	
+}
+
+@media (max-width: 470px) {
+    .projects__holder {
+        width: 100%;
+        max-height: unset;
+    }
+    .projects__image {
+        height: auto;
+    }
+    .nav__element.nav__element--mobile.nav__phone .nav__list {
+        text-align: left;
+        padding-left: 15px;
+    }
+    .nav__element.nav__element--mobile.nav__mail .nav__list {
+        text-align: right;
+        padding-right: 15px;
+    }
+    .services__table tr>th:first-child,
+    .services__table tr>td:first-child {
+        position: sticky;
+        left: 0;
+        background: #fff;
+        width: 210px!important;
+        display: block;
+    }
+    .services__table tr>th:first-child {
+        height: 72.8px;
+        line-height: 72.8px;
+    }
+}
+
+@media (max-width: 425px) {
+    .quote__img {
+        left: -12px;
+    }
+    .quote__img--1 {
+        left: 237px;
+    }
+}
+
+@media (max-width: 350px) {
+    .consult__form--calculate .form__input-calculate {
+        width: 260px;
+    }
+}
