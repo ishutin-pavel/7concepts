@@ -67,6 +67,7 @@ function concepts_scripts() {
 	wp_enqueue_style( 'modal-css', get_template_directory_uri() . '/libs/jquery-modal/jquery.modal.css' );
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/libs/bootstrap/css/bootstrap.min.css' );
 	wp_enqueue_style( 'concepts-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'concepts-main', get_template_directory_uri() . '/css/main.css' );
 
 
 	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/libs/jQuery/jquery-3.3.1.min.js', array(), null, true );

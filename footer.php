@@ -17,7 +17,9 @@
 <footer class="footer">
   <div class="header__nav header__nav--footer">
     <div class="nav__element nav__element--footer nav__logo nav__logo--footer">
-        <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+      <a href="/">
+          <img src="<?php the_field('head_logo', 'option'); ?>" alt="Logo" class="nav__element">
+      </a>
     </div><br class="footer__br">
     <div class="nav__element nav__element--footer nav__adress">
         <ul class="nav__list nav__list--footer">

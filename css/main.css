@@ -100,14 +100,6 @@ h2:after {
         margin-bottom: 10px!important;
         font-size: 16px;
     }
-    .quote__img {
-        bottom: 440px;
-        left: -64px;
-    }
-    .quote__img--1 {
-        top: 294px;
-        left: 276px;
-    }
 }
 
 @media (max-width: 622px) {
@@ -257,17 +249,15 @@ h2:after {
     }
 }
 
-@media (max-width: 425px) {
-    .quote__img {
-        left: -12px;
-    }
-    .quote__img--1 {
-        left: 237px;
-    }
-}
-
 @media (max-width: 350px) {
     .consult__form--calculate .form__input-calculate {
         width: 260px;
     }
 }
+
+/*
+ * Gutenberg
+ */
+.blocks-gallery-grid {
+  padding-left: 0 !important;
+} 

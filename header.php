@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="yandex-verification" content="899fb00728790d7f" />
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="/wp-content/themes/concepts/css/main.css">
 </head>
 <body>
     <div class="header" id="header">

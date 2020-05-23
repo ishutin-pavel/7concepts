@@ -690,47 +690,41 @@
     font-size: 1.25em;
   }
 }
+
+
 .quote__img {
   z-index: -1;
   width: 70px;
   height: 50px;
   position: absolute;
-  bottom: 300px;
-  left: 50px;
+}
+.quote__img_start {
+  left: 0;
+  top: -25px;
+}
+.quote__img_end {
+  right: 0;
+  bottom: -25px;
 }
 @media (min-width: 768px) {
   .quote__img {
-    width: 87x;
+    width: 87px;
     height: 60px;
-    left: 97px;
-    bottom: 60px;
+    /* left: 97px; */
+    /* bottom: 60px; */
   }
 }
 @media (min-width: 1200px) {
   .quote__img {
     width: 125px;
     height: 87px;
-    left: 97px;
-    bottom: 115px;
+    /* left: 97px; */
+    /* bottom: 115px; */
   }
 }
-.quote__img--1 {
-  position: absolute;
-  top: 271px;
-  left: 208px;
-}
-@media (min-width: 768px) {
-  .quote__img--1 {
-    top: 62px;
-    left: 550px;
-  }
-}
-@media (min-width: 1200px) {
-  .quote__img--1 {
-    left: 947px;
-    top: 68px;
-  }
-}
+
+
+
 .client__slogan {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;

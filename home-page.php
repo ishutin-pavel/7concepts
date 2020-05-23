@@ -186,9 +186,9 @@ require get_template_directory() . '/' . 'template-blocks/we-help.php';
               <div class="col-xl-12 client__line client__line--desktop"></div>
           </div>
               <div class="client__quote">
-                 <?=get_field('plus_down')?>
-                  <img src="<?=get_template_directory_uri();?>/img/client/quotes.png" alt="quote" class="quote__img">
-                  <img src="<?=get_template_directory_uri();?>/img/client/quotes1.png" alt="quote" class="quote__img quote__img--1">
+                 <img src="<?=get_template_directory_uri();?>/img/client/quotes.png" alt="quote" class="quote__img quote__img_start">
+                 <?php echo get_field('plus_down'); ?>
+                 <img src="<?=get_template_directory_uri();?>/img/client/quotes1.png" alt="quote" class="quote__img quote__img_end quote__img--1">
               </div>
 
           <a href="#" class="show-modal">
