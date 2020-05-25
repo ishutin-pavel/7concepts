@@ -5,6 +5,9 @@
     // The Query
     $args = array(
       'category_name' => 'projects',
+      'order'   => 'ASC',
+      'orderby' => 'date',
+      'posts_per_page' => 12
     );
     $the_query = new WP_Query( $args );
      
@@ -14,17 +17,21 @@
             $the_query->the_post();
     ?>
       <div class="projects__holder">
-    <a href="<?php the_permalink(); ?>">
-        <div class="lowcarousel__hover lowcarousel__hover--gallery">
-          <h3 class="hover__header hover__header--gallery">
-            <?php the_title(); ?>
-          </h3>
-          <p class="hover__text hover__text--gallery"><? echo get_field( "area" ); ?> м<sup>2</sup></p>
-        </div>
-        <?php the_post_thumbnail('full', array('class'=>'projects__image') ); ?>
-        <a href="<?php the_permalink(); ?>" class="img__text img__text--1">Просмотр</a>
-      </a>
-       </div>
+          <a class="project" href="<?php the_permalink(); ?>">
+            <div class="lowcarousel__hover lowcarousel__hover--gallery">
+              <h3 class="hover__header hover__header--gallery"><?php the_title(); ?></h3>
+                <?php
+                $area = get_field( "area" );
+                if( $area ) {
+                echo $value;
+                     echo "<p class='hover__text hover__text--gallery'>$area м<sup>2</sup></p>";
+                } else {}
+                ?>
+            </div>
+            <?php the_post_thumbnail('full', array('class'=>'projects__image') ); ?>
+            <a href="<?php the_permalink(); ?>" class="img__text img__text--1">Просмотр</a>
+          </a>
+      </div>
     <?php
         }
     } else {

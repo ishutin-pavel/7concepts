@@ -59,10 +59,6 @@
 <style>
 .ourprojects { max-width:100%; }
 .client__header.client__header--real { margin-top: 40px; }
-@media (min-width: 768px){
-  .projects__holder { width: 33.33%!important; }
-  .projects__holder { max-height: 100%; }
-}
 </style>
 
     <!-- Yandex.Metrika counter -->
