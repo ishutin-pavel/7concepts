@@ -13,7 +13,22 @@
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
-			the_title( '<h1 class="client__header">', '</h1>' );
+      $your_text  = get_the_title();
+      $pieces = explode(" ", $your_text);
+      echo "<h1 class='client__header'>";
+      $the_count = count($pieces);
+      foreach ($pieces as $i => $value) {
+        $i = $i + 1;
+        if ($i == $the_count) { echo "<span class='yellow'>"; }
+        echo $value . ' ';
+        if ($i == $the_count) { echo "</span>"; }
+      }
+      echo "</h1>";
+      $area = get_field( "area" );
+      if( $area ) {
+            echo "<div class='single__area'>$area м<sup>2</sup></p>";
+      } else {}
+			//the_title( '<h1 class="client__header">', '</h1>' );
 		else :
 			the_title( '<h2 class="client__header"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;

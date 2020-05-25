@@ -2178,3 +2178,8 @@ body {
   background: url(img/youtube-red.png) center no-repeat;
 }
 .rp-slider .owl-nav { top: 30%; }
+
+.single__area {
+  margin-top: -40px;
+  text-align: center;
+}
