@@ -13,6 +13,9 @@
   }
 }
 
+body {
+	min-width: 320px;
+}
 
 .nav__link {
   text-decoration: none;
@@ -2029,9 +2032,6 @@ video {
   }
 }
 
-body {
-	min-width: 320px;
-}
 
 @media (min-width: 768px) and (max-width: 1199px) {
 	.header__nav .nav__logo--desktop {
@@ -2186,7 +2186,6 @@ body {
 }
 
 .ourprojects {
-    max-width: 1600px;
     margin: 0 auto;
     width: 100%;
 }
