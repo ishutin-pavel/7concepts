@@ -2443,11 +2443,26 @@ h2:after {
 }
 
 
-.ourprojects {
-  max-width:100%;
-}
 .client__header.client__header--real {
   margin-top: 40px;
+}
+
+
+.show-projects {
+  display: none;
+}
+@media(max-width: 1200px) {
+  .projects__holder:nth-of-type(7),
+  .projects__holder:nth-of-type(8),
+  .projects__holder:nth-of-type(9),
+  .projects__holder:nth-of-type(10),
+  .projects__holder:nth-of-type(11) {
+    display: none;
+  }
+  .show-projects {
+    display: block;
+    margin-top: 1em;
+  }
 }
 
 

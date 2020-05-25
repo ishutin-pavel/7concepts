@@ -1,5 +1,15 @@
 jQuery(document).ready(function() {
 
+  jQuery(".show-projects").on('click', function() {
+    jQuery(this).parent().find(".projects__gallery .projects__holder:nth-of-type(7)").show();
+    jQuery(this).parent().find(".projects__gallery .projects__holder:nth-of-type(8)").show();
+    jQuery(this).parent().find(".projects__gallery .projects__holder:nth-of-type(9)").show();
+    jQuery(this).parent().find(".projects__gallery .projects__holder:nth-of-type(10)").show();
+    jQuery(this).parent().find(".projects__gallery .projects__holder:nth-of-type(11)").show();
+    jQuery(this).hide();
+    return false;
+  });
+
   jQuery(".plan-slider").owlCarousel({
     items: 1,
     nav: true,
@@ -33,71 +43,6 @@ jQuery(document).ready(function() {
         }
     }
   });
-
-  /*
-    jQuery(".owl-carousel").owlCarousel({
-        items: 5,
-        itemsCustom: false,
-        itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [979, 3],
-        itemsTablet: [768, 4],
-        itemsTabletSmall: false,
-        itemsMobile: [479, 1],
-        singleItem: false,
-        itemsScaleUp: false,
-
-        slideSpeed: 200,
-        paginationSpeed: 800,
-        rewindSpeed: 1000,
-        loop: true,
-        autoPlay: false,
-        stopOnHover: false,
-
-        navigation: true,
-        navigationText: ["<img src=\"/wp-content/themes/concepts/img/projects/carousel/left-arrow.png\">", "<img src=\"/wp-content/themes/concepts/img/projects/carousel/right-arrow.png\">"],
-        rewindNav: true,
-        scrollPerPage: false,
-
-        pagination: false,
-        paginationNumbers: false,
-
-        responsive: true,
-        responsiveRefreshRate: 200,
-        responsiveBaseWidth: window,
-
-        baseClass: "owl-carousel",
-        theme: "owl-theme",
-
-        lazyLoad: false,
-        lazyFollow: true,
-        lazyEffect: "fade",
-
-        autoHeight: false,
-
-        jsonPath: false,
-        jsonSuccess: false,
-
-        dragBeforeAnimFinish: true,
-        mouseDrag: true,
-        touchDrag: true,
-
-        addClassActive: false,
-        transitionStyle: false,
-        margin: 10,
-        beforeUpdate: false,
-        afterUpdate: false,
-        beforeInit: false,
-        afterInit: false,
-        beforeMove: false,
-        afterMove: false,
-        afterAction: false,
-        startDragging: false,
-        afterLazyLoad: false
-    });
-    */
-
-    //Карусель.................................................................................................
-
 
     //Меню.....................................................................................................
 
