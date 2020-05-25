@@ -75,7 +75,7 @@ function concepts_scripts() {
 	wp_enqueue_script( 'mousewheel', get_template_directory_uri() . '/libs/jQuery/jquery.mousewheel-3.0.6.pack.js', array(), null, true );
 	wp_enqueue_script( 'owl-carousel-js', get_template_directory_uri() . '/libs/owl-carousel/owl.carousel.min.js', array('jquery'), null, true );
 	wp_enqueue_script( 'modal-js', get_template_directory_uri() . '/libs/jquery-modal/jquery.modal.min.js', array(), null, true );
-	wp_enqueue_script( 'maskedinput', get_template_directory_uri() . '/libs/maskedinput/jquery.maskedinput.min.js', array(), null, true );
+	//wp_enqueue_script( 'maskedinput', get_template_directory_uri() . '/libs/maskedinput/jquery.maskedinput.min.js', array(), null, true );
 	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/main.js', array(), null, true );
 
 
