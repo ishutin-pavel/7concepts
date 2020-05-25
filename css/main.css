@@ -261,3 +261,6 @@ h2:after {
 .blocks-gallery-grid {
   padding-left: 0 !important;
 } 
+.single-ourprojects-gallery img {
+  width: 100% !important;
+}
