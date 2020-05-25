@@ -56,10 +56,6 @@
     </div>
 
 <?php wp_footer(); ?>
-<style>
-.ourprojects { max-width:100%; }
-.client__header.client__header--real { margin-top: 40px; }
-</style>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >

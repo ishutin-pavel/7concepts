@@ -2442,6 +2442,15 @@ h2:after {
     }
 }
 
+
+.ourprojects {
+  max-width:100%;
+}
+.client__header.client__header--real {
+  margin-top: 40px;
+}
+
+
 /*
  * Gutenberg
  */
