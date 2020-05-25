@@ -7,13 +7,13 @@
     <p>Чек-лист: <a href="#" class="show-cf-499">Чек-лист. Топ 10 ошибок в чертежах</a></p>
     <p>Чек-лист: <a href="#" class="show-cf-500">Чек-лист. Ошибки при ремонте</a></p>
 
-    <div class="modal-fade cf-499">
+    <div class="modal-fade cf-498">
        <div class="modal__holder">
         <div class="modal-popup">
            <div class="modal__container">
-                <h2 class="client__header client__header--modal">Чек лист - 10 ошибок в ремонте</h2>
+                <h2 class="client__header client__header--modal">Чек-лист. Основные стили интерьеров</h2>
                 <h3 class="desc__header desc__header--modal">Введите своё имя и телефон</h3>
-                <?php echo do_shortcode('[contact-form-7 id="499" title="Чек-лист. Основные стили интерьеров"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="498" title="Чек-лист. Топ 10 ошибок в чертежах"]'); ?>
                 <div class="close">
                     <img src="<?=get_template_directory_uri();?>/img/header_body/close1.png" alt="">
                 </div>
@@ -22,13 +22,13 @@
        </div>
     </div>
 
-    <div class="modal-fade cf-498">
+    <div class="modal-fade cf-499">
        <div class="modal__holder">
         <div class="modal-popup">
            <div class="modal__container">
-                <h2 class="client__header client__header--modal">10 ошибок в чертежах</h2>
+                <h2 class="client__header client__header--modal">Чек-лист. Топ 10 ошибок в чертежах</h2>
                 <h3 class="desc__header desc__header--modal">Введите своё имя и телефон</h3>
-                <?php echo do_shortcode('[contact-form-7 id="498" title="Чек-лист. Топ 10 ошибок в чертежах"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="499" title="Чек-лист. Основные стили интерьеров"]'); ?>
                 <div class="close">
                     <img src="<?=get_template_directory_uri();?>/img/header_body/close1.png" alt="">
                 </div>
@@ -41,7 +41,7 @@
        <div class="modal__holder">
         <div class="modal-popup">
            <div class="modal__container">
-                <h2 class="client__header client__header--modal">Как выбрать бригаду?</h2>
+                <h2 class="client__header client__header--modal">Чек-лист. Ошибки при ремонте</h2>
                 <h3 class="desc__header desc__header--modal">Введите своё имя и телефон</h3>
                 <?php echo do_shortcode('[contact-form-7 id="500" title="Чек-лист. Ошибки при ремонте"]'); ?>
                 <div class="close">
