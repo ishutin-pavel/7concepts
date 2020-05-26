@@ -184,8 +184,8 @@ body {
 }
 @media (min-width: 1200px) {
   .menu__element {
-    font-size: 27px;
-    line-height: 72px;
+    font-size: 1.7em;
+    line-height: 2;
     width: 380px;
   }
 }
@@ -440,8 +440,9 @@ body {
 }
 @media (min-width: 1200px) {
   .body__header {
-    font-size: 25px;
+    font-size: 35px;
     padding-top: 200px;
+    margin-bottom: 8em;
   }
 }
 .body__sub {

@@ -1,4 +1,4 @@
-<section class="stages">
+<section id="stages" class="stages">
   <h2 class="client__header">Этапы <span class="client__header client__header--yellow">работ</span></h2>
   <img class="stages__img stages__img_0" src="/wp-content/uploads/2020/05/infographic_0.png" alt="steps">
   <img class="stages__img stages__img_1" src="/wp-content/uploads/2020/05/infographic_1.png" alt="steps">
